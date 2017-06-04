@@ -1,0 +1,112 @@
+@import "fonts/dillenia.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: #FFA500;
+}
+
+header {
+  background-color: #4CAF50;
+  color: whitesmoke;
+  padding: 10px;
+  height: 100px;
+}
+
+header img {
+  height: 70px;
+  float: left;
+  position: relative;
+  top: 10px;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: "Dillenia", sans-serif;
+  font-size: 48px;
+  color: white;
+  font-style: normal;
+  font-weight: lighter;
+  float: left;
+  position: relative;
+  top: -10px;
+  margin-left: 10px;
+}
+
+#recipiente {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.matematica {
+  font-style: italic;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+label.matematica {
+  font-size: 15px;
+  margin: 2px;
+}
+
+section#variaveis {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(250, 230, 255, .5);
+  padding: 20px;
+  padding-left: 260px;
+  margin: 10px;
+}
+
+input[type="number"] {
+  width: 5em;
+}
+
+#locagra {
+  width: 90%;
+  margin: 20px auto;
+}
+
+footer {
+  background-color: #9a1c1c;
+  color: whitesmoke;
+  position: relative;
+  padding: 10px;
+  height: 100px;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer img {
+  height: 80px;
+  float: right;
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  line-height: 104px;
+}

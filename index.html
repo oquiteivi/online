@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Oquiteivi Online</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+  <header>
+    <img src="imgs/oquiteivi-icone.png" alt="Ícone do Oquiteivi">
+    <h1>Oquiteivi Online</h1></header>
+  <main>
+    <div id="recipiente">
+      <h2>Fazendo gráficos de MRU</h2>
+      <p>Se você tem uma equação na forma
+        <span class="matematica">s = s<sub>0</sub> + v.t</span>, podemos
+        fazer um gráfico para você!</p>
+      <p>Coloque os valores de <span class="matematica">s<sub>0</sub></span> ,
+        <span class="matematica">v</span> e <span class="matematica">t</span>
+        abaixo e clique no botão "Gráfico!"</p>
+      <section id="variaveis">
+        <label for="s0" class="matematica">s<sub>0: </sub> </label>
+        <input id="s0" type="number" value="1">
+        <label for="v" class="matematica">v: </label>
+        <input id="v" type="number" value="1">
+        <label for="t" class="matematica">t: </label>
+        <input id="t" type="number" value="1">
+        <button id="grafico-button">Gráfico!</button>
+      </section>
+    </main>
+
+    <div id="locagra">
+      <canvas class="linha" height="400" width="400"></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <script src="graphic.js"></script>
+    </div>
+
+    <footer>
+      <img src="imgs/oquiteivi-icone.png" alt="Ícone do Oquiteivi">
+      <p>© Copyright 2017 - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
